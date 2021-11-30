@@ -1,0 +1,1 @@
+applicaciones tiene los casos de uso 

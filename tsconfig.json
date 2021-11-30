@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "baseUrl": "./",
+      "outDir": "build",
+      "target": "es6",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "lib": ["es6"],
+      "allowJs": true,
+      "forceConsistentCasingInFileNames": true,
+    },
+    "include": [
+      "**.ts",
+      "app/**/*"
+    ],
+    "exclude": [
+      "./frontend"
+    ]
+}
